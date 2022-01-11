@@ -1,34 +1,18 @@
-@import url('https://fonts.googleapis.com/css?family=Poppins');
-*{ 
-   box-sizing: border-box;
-}
-*:focus{
-    outline: none;
-}
-html{
-    background-color: #9cf8bc; 
-}
-body{ 
-    font-family: "Poppins", sans-serif;
-    height: 100vh;
-}
+
 
 .wrapper{ 
     display: flex;
     align-items: center;
     flex-direction: column;
     justify-content: center;
-    width: 100%;
     min-height: 100%;
     padding: 20px;
 }
-.form-content{ 
+.form-content {
     border-radius: 10px;
     background-color: #fff;
-    margin-top: 70px;
     width: 90%;
     max-width: 450px;
-    position: relative;
     padding: 0;
     box-shadow: 0 30px 60px 0 rgba(0, 0, 0, 0.3);
     text-align: center;
@@ -41,7 +25,7 @@ body{
     border-radius: 0 0 10px 10px;
 }
 .custom-login-input{ 
-    background-color: #f6f6f6;
+    background-color: #eeeeee;
     padding: 15px 32px;
     display: inline-block;
     margin: 5px;
