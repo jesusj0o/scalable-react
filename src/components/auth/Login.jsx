@@ -14,9 +14,11 @@ const Login = () => {
     const handleOnClick = (e) => {
         e.preventDefault()
 
+
+        // valid credentials: username = john; password = changeme;
         axios.post('https://sandbox-server.mauaznar.com/auth/login', {
             "username": "john",
-            "password": "changemee"
+            "password": "changeme"
         }).then((result) => {
             console.log(result.data.accessToken)
         }).catch(e => {
