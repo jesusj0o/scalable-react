@@ -50,3 +50,22 @@
     background-color: #58b679;
     cursor: pointer;
 }
+
+.custom-link{ 
+    text-decoration: none;
+    color: #000;
+}
+.custom-link:hover{ 
+    color: #58b679;
+}
+
+.error-alert{ 
+    background: rgba(224, 0, 0, 0.171);
+    color: rgb(255, 0, 0);
+    border-radius: 3px;
+    padding: 8px;
+    width: 50%;
+    margin: auto;
+    margin-top: 5px;
+    margin-bottom: 12px;
+}

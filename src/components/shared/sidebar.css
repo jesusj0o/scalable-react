@@ -1,0 +1,42 @@
+.sidebar-menu{ 
+    position: fixed;
+    width: 200px;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgb(243, 243, 243);
+    box-shadow: 1px 0 40px 0px rgba(0, 0, 0, 0.3);
+    transition: all 1s;
+}
+.brand-container{
+    background-color: rgb(245, 245, 245);
+    top: 0;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 0px 10px 0px rgba(0, 0, 0, 0.1);
+    color: #333;
+}
+.brand p{ 
+    font-size: 18px;
+   
+}
+.items-container{ 
+    padding-top: 40px;
+    line-height: 40px;
+    text-align: center;
+}
+.items-container a { 
+    text-decoration: none;
+    color: #333;
+}
+.items-container a:hover{ 
+    cursor: pointer;
+    color: rgb(112, 112, 112);
+}
+
+@media screen and (max-width: 991px){
+    .sidebar-menu{ 
+        transform: translateX(-100%);
+        opacity: 0;
+    }
+}
